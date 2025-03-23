@@ -1,11 +1,17 @@
 # Conser-vision-Image-Classification
 
 
+
+
+
+
 # Wildlife Species Classification - Taï National Park
 
 ## Overview
 
 This repository contains my solution for the Taï National Park species classification challenge. The goal of this competition was to build a model that accurately classifies animals captured in camera trap images into one of seven species categories or as blank images. My final model achieved a rank of **188** with a **log loss score of 2.0798**.
+
+[Competition Link](https://www.drivendata.org/competitions/87/competition-image-classification-wildlife-conservation/)
 
 ## Dataset
 
@@ -30,7 +36,7 @@ Each image belongs to one of the following classes:
 
 ## Model Architecture
 
-Unlike many participants who used pretrained models, I designed a **custom CNN architecture** from scratch to minimize classification error. The model consists of:
+Unlike many participants who used pretrained models, I designed a **custom CNN architecture** from scratch to minimize classification error. Although using a pretrained model was allowed, I opted not to, as I wanted to test and refine my own deep learning skills. The model consists of:
 
 - **Six convolutional layers** with ReLU activation and L2 regularization.
 - **Batch normalization** after each convolutional layer to stabilize training.
@@ -68,6 +74,9 @@ Unlike many participants who used pretrained models, I designed a **custom CNN a
 ## Conclusion
 
 This project demonstrates the effectiveness of a custom CNN model for species classification in camera trap images. While pretrained models could offer better performance, designing a model from scratch allowed for a deeper understanding of CNN architecture and its impact on classification accuracy. Future improvements could include experimenting with data augmentation, ensembling multiple models, and integrating additional metadata features to enhance predictions. Additionally, leveraging transfer learning in combination with a custom architecture could provide further improvements while maintaining the benefits of a handcrafted model.
+
+Any feedback is most appreciated!
+
 
 
 
